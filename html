@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxograma do Aventureiro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .flowchart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box {
+            border: 2px solid #333;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .arrow {
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 20px solid #333;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="flowchart">
+        <div class="box">Início da Jornada</div>
+        <div class="arrow"></div>
+        <div class="box">Preparação para a Aventura</div>
+        <div class="arrow"></div>
+        <div class="box">Exploração de Territórios</div>
+        <div class="arrow"></div>
+        <div class="box">Descoberta de Pistas</div>
+        <div class="arrow"></div>
+        <div class="box">Desafios e Obstáculos</div>
+        <div class="arrow"></div>
+        <div class="box">Encontro com o Tesouro</div>
+        <div class="arrow"></div>
+        <div class="box">Conclusão da Aventura</div>
+    </div>
+</body>
+</html>
